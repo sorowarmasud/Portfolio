@@ -9,13 +9,15 @@
     <title>Portfolio</title>
   </head>
 
-  <body>
+  <body >
+    
+
     <nav class="flex flex-wrap items-center gap-4 px-4 sm:px-6 lg:px-10 py-5 font-medium bg-amber-50 fixed top-0 left-0 w-full z-50 shadow-md">
       <p class="uppercase tracking-wide ml-0 sm:ml-4 lg:ml-15">
         MD Sorowar Hossen
       </p>
 
-      <ul class="flex flex-wrap gap-3 sm:gap-5 lg:gap-10 ml-auto text-sm sm:text-base">
+      <ul class="flex flex-wrap gap-3 sm:gap-5 lg:gap-10 ml-auto text-sm sm:text-base ">
         <li><a href="">HOME</a></li>
         <li><a href="">ABOUT</a></li>
         <li><a href="">SKILLS</a></li>
@@ -25,184 +27,330 @@
     </nav>
 
     <!-- HOME -->
-    <div class="flex flex-col sm:flex-row items-center justify-around gap-6 px-4 sm:px-8 mt-24">
-      <h5 class="text-4xl sm:text-5xl lg:text-6xl ml-0 mt-10">
-        <br> Hi,</br>I am
-        <span class="text-green-600">SOROWAR</span>
-        <br> Web Designer.</br>
-      </h5>
+     
+   <!-- HOME SECTION -->
+<section id="home" class="relative overflow-hidden bg-[#FDFBF7] py-12 lg:py-20">
+    
+    <!-- Top Row: Title & Image -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
+        
+        <!-- Left Text Content -->
+        <div class="text-center lg:text-left">
+            <h5 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                <span class="block mb-2">Hi,</span>
+                I am <span class="text-green-600">SOROWAR</span>
+                <span class="block mt-2 text-gray-900">Web Designer.</span>
+            </h5>
+        </div>
 
-      <img src="/self.jpeg" class="h-40 sm:h-50 w-auto max-w-full object-cover mt-4 sm:mt-18 ml-0">
+        <!-- Right Profile Image -->
+        <div class="flex justify-center">
+            <img src="/self.jpeg" alt="MD Sorowar Hossen" class="h-30 sm:h-44 lg:h-60 mt-13 w-auto object-cover rounded-3xl shadow-xl border-4 border-white">
+        </div>
     </div>
 
-    <h4 class="mt-10 ml-4 sm:ml-15 font-medium">Follow On</h4>
+    <!-- Bottom Row: Social Icons & Buttons -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 mt-12 flex flex-col sm:flex-row items-center justify-between gap-6">
+        
+        <!-- Left Side: Follow On -->
+        <div class="text-center sm:text-left">
+            <h4 class="font-medium text-gray-700 text-sm sm:text-base">Follow On</h4>
+            <div class="flex items-center justify-center sm:justify-start gap-4 mt-3">
+                <a href="#" class="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center hover:bg-green-600 hover:text-white hover:border-green-600 transition-all shadow-sm">
+                    <img src="/facebook.svg" class="h-4 w-4">
+                </a>
+                <a href="#" class="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center hover:bg-green-600 hover:text-white hover:border-green-600 transition-all shadow-sm">
+                    <img src="/twiter.svg" class="h-4 w-4">
+                </a>
+                <a href="#" class="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center hover:bg-green-600 hover:text-white hover:border-green-600 transition-all shadow-sm">
+                    <img src="/instagram.svg" class="h-4 w-4">
+                </a>
+                <a href="#" class="w-9 h-9 rounded-full bg-white border border-gray-200 flex items-center justify-center hover:bg-green-600 hover:text-white hover:border-green-600 transition-all shadow-sm">
+                    <img src="/whatsapp.svg" class="h-4 w-4">
+                </a>
+            </div>
+        </div>
 
-    <section class="flex gap-4 ml-4 sm:ml-15 mt-2 mb-10">
-      <img src="/facebook.svg" class="h-4 w-4">
-      <img src="/twiter.svg" class="h-4 w-4">
-      <img src="/instagram.svg" class="h-4 w-4">
-      <img src="/whatsapp.svg" class="h-4 w-4">
-    </section>
+        <!-- Right Side: Action Buttons -->
+        <div class="flex flex-wrap items-center justify-center sm:justify-end gap-4 w-full sm:w-auto">
+            <a href="#contact" class="px-6 py-3 bg-green-600 hover:bg-green-500 text-white font-medium rounded-xl shadow-lg shadow-green-600/20 transition-all text-sm sm:text-base">
+                Let's Talk
+            </a>
+            <a href="#resume" class="px-6 py-3 bg-white hover:bg-gray-100 text-gray-800 font-medium rounded-xl border border-gray-300 shadow-sm transition-all text-sm sm:text-base">
+                Download CV
+            </a>
+        </div>
 
+    </div>
+
+</section>
+    
     <!-- ABOUT -->
-    <h3 class="text-center mt-15 underline text-3xl font-medium text-blue-500">
-      ABOUT
-    </h3>
+     
+   <!-- ABOUT SECTION -->
+<section id="about" class="relative overflow-hidden py-16 bg-blue-50/40">
 
-    <div class="flex flex-col md:flex-row items-center gap-6 px-4 sm:px-8">
-      <img src="/self.jpeg" class="h-48 sm:h-60 w-auto max-w-full object-cover mt-5 ml-0 md:ml-10 lg:ml-25">
+    <!-- Optional Soft Background Blue Glow Blob -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-blue-200/30 rounded-full blur-[100px] -z-10 pointer-events-none"></div>
 
-      <p class="mt-4 md:mt-10 ml-0 md:ml-6 lg:ml-12 mr-0 text-sm sm:text-base text-center md:text-left">
-        Hi, I'm a passionate Frontend Developer who enjoys building modern,<br class="hidden lg:block">
-        responsive, and user-friendly websites.
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        
+        <!-- Section Heading -->
+        <h3 class="text-center mb-12 underline underline-offset-8 text-3xl font-bold tracking-wide text-blue-600">
+            ABOUT
+        </h3>
+        
+        <!-- Main Content: Image & Paragraph -->
+        <div class="flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-8 lg:gap-16">
+            
+            <!-- Profile Image -->
+            <div class="flex-shrink-0">
+                <img src="/self.jpeg" alt="MD Sorowar Hossen" class="h-30 sm:h-44 lg:h-60 w-auto object-cover rounded-3xl shadow-lg border-4 border-white">
+            </div>
 
-        I have learned HTML, CSS,<br class="hidden lg:block">
-        Tailwind CSS, and JavaScript. I enjoy turning creative ideas into functional<br class="hidden lg:block">
-        web experiences and continuously improving my development skills.
+            <!-- Description & Stats Container -->
+            <div class="flex-1 max-w-2xl text-center lg:text-left space-y-6">
+                
+                <!-- Paragraph -->
+                <p class="text-gray-700 text-sm sm:text-base leading-relaxed">
+                    Hi, I'm a passionate Frontend Developer who enjoys building modern, responsive, and user-friendly websites. I have learned HTML, CSS, Tailwind CSS, and JavaScript. I enjoy turning creative ideas into functional web experiences and continuously improving my development skills.
+                </p>
+                
+                <p class="text-gray-700 text-sm sm:text-base leading-relaxed">
+                    I am currently focusing on building real-world projects, improving my problem-solving abilities, and learning modern web development technologies. My goal is to become a skilled developer and create websites that provide great user experiences.
+                </p>
 
-        <br>
-        I am currently focusing on building real-world projects, improving<br class="hidden lg:block">
-        my problem-solving abilities, and learning modern web development<br class="hidden lg:block">
-        technologies.
+                <!-- Stats Cards -->
+                <div class="flex items-center justify-center lg:justify-start gap-4 pt-2">
+                    <div class="p-4 px-6 bg-white rounded-2xl border border-gray-200 shadow-sm text-center min-w-[110px]">
+                        <h4 class="text-2xl font-bold text-green-600">10+</h4>
+                        <p class="text-xs text-gray-500 mt-1 font-medium">Projects</p>
+                    </div>
+                    <div class="p-4 px-6 bg-white rounded-2xl border border-gray-200 shadow-sm text-center min-w-[110px]">
+                        <h4 class="text-2xl font-bold text-green-600">1+</h4>
+                        <p class="text-xs text-gray-500 mt-1 font-medium">Years Exp.</p>
+                    </div>
+                </div>
 
-        My goal is to become a skilled developer and create websites<br class="hidden lg:block">
-        that provide great user experiences.
-      </p>
+            </div>
+
+        </div>
+
     </div>
+
+</section>
+    
 
     <!-- SKILLS -->
-    <h3 class="text-center mt-15 underline text-3xl font-medium text-blue-500">
-      SKILLS
-    </h3>
+     
+   
+    <!-- SKILLS SECTION -->
+<section id="skills" class="relative overflow-hidden py-16 bg-green-50/40">
 
-    <div class="flex flex-col lg:flex-row items-center gap-8 px-4 sm:px-8">
+    <!-- Optional Soft Green Glowing Background Blob -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-green-200/30 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
 
-      <section class="mt-6 w-full lg:w-1/2">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        
+        <!-- Section Heading -->
+        <h3 class="text-center mb-12 underline underline-offset-8 text-3xl font-bold tracking-wide text-blue-600">
+            SKILLS
+        </h3>
 
-        <p class="ml-0 md:ml-15 text-2xl font-semibold">
-          Professional Skills
-        </p>
+        <!-- Main Grid Container -->
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
 
-        <h2 class="mt-5 ml-0 md:ml-15 text-sm sm:text-base">
-          I am a passionate web developer skilled in HTML, CSS, JavaScript, and Tailwind CSS.
-          I focus on creating responsive, user-friendly, and visually appealing websites with clean code.
-        </h2>
+            <!-- Left Side: Professional Skills & Progress Bars -->
+            <div class="w-full lg:w-1/2">
+                
+                <h4 class="text-2xl font-semibold text-gray-900 mb-4">
+                    Professional Skills
+                </h4>
 
-        <div class="mt-5 ml-0 md:ml-15 max-w-md space-y-5">
+                <p class="text-sm sm:text-base text-gray-700 leading-relaxed mb-8">
+                    I am a passionate web developer skilled in HTML, CSS, JavaScript, and Tailwind CSS. I focus on creating responsive, user-friendly, and visually appealing websites with clean code.
+                </p>
 
-          <!-- HTML5 -->
-          <div>
-            <p class="font-medium flex items-center gap-2">
-              <img src="/html5.svg" class="h-10 w-10 shrink-0">
-              <span>HTML5</span>
-              <span class="ml-auto w-12 text-right">97%</span>
-            </p>
+                <!-- Progress Bars Wrapper -->
+                <div class="space-y-6">
 
-            <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
-              <div class="bg-blue-600 h-2 rounded-full" style="width: 97%"></div>
+                    <!-- HTML5 -->
+                    <div>
+                        <div class="font-medium flex items-center gap-3 mb-2">
+                            <img src="/html5.svg" class="h-8 w-8 shrink-0">
+                            <span class="text-gray-800 font-semibold">HTML5</span>
+                            <span class="ml-auto text-gray-600 font-medium">97%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden">
+                            <div class="bg-green-600 h-2.5 rounded-full transition-all duration-500" style="width: 97%"></div>
+                        </div>
+                    </div>
+
+                    <!-- CSS3 -->
+                    <div>
+                        <div class="font-medium flex items-center gap-3 mb-2">
+                            <img src="/css.svg" class="h-8 w-8 shrink-0">
+                            <span class="text-gray-800 font-semibold">CSS3</span>
+                            <span class="ml-auto text-gray-600 font-medium">95%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden">
+                            <div class="bg-green-600 h-2.5 rounded-full transition-all duration-500" style="width: 95%"></div>
+                        </div>
+                    </div>
+
+                    <!-- TAILWIND CSS -->
+                    <div>
+                        <div class="font-medium flex items-center gap-3 mb-2">
+                            <img src="/tailwind.svg" class="h-8 w-8 shrink-0">
+                            <span class="text-gray-800 font-semibold">TAILWIND CSS</span>
+                            <span class="ml-auto text-gray-600 font-medium">93%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden">
+                            <div class="bg-green-600 h-2.5 rounded-full transition-all duration-500" style="width: 93%"></div>
+                        </div>
+                    </div>
+
+                    <!-- JAVASCRIPT -->
+                    <div>
+                        <div class="font-medium flex items-center gap-3 mb-2">
+                            <img src="/js.svg" class="h-8 w-8 shrink-0">
+                            <span class="text-gray-800 font-semibold">JAVASCRIPT</span>
+                            <span class="ml-auto text-gray-600 font-medium">40%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden">
+                            <div class="bg-green-600 h-2.5 rounded-full transition-all duration-500" style="width: 40%"></div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-          </div>
 
-          <!-- CSS3 -->
-          <div>
-            <p class="font-medium flex items-center gap-2">
-              <img src="/css.svg" class="h-10 w-10 shrink-0">
-              <span>CSS3</span>
-              <span class="ml-auto w-12 text-right">95%</span>
-            </p>
-
-            <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
-              <div class="bg-blue-600 h-2 rounded-full" style="width: 95%"></div>
+            <!-- Right Side: Skill Image -->
+            <div class="w-full lg:w-1/2 flex justify-center">
+                <img src="/skill.jpg" alt="Skills Image" class="w-full max-w-md h-64 sm:h-80 lg:h-96 object-cover rounded-3xl shadow-xl border-4 border-white">
             </div>
-          </div>
-
-          <!-- TAILWIND CSS -->
-          <div>
-            <p class="font-medium flex items-center gap-2">
-              <img src="/tailwind.svg" class="h-10 w-10 shrink-0">
-              <span>TAILWIND CSS</span>
-              <span class="ml-auto w-12 text-right">93%</span>
-            </p>
-
-            <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
-              <div class="bg-blue-600 h-2 rounded-full" style="width: 93%"></div>
-            </div>
-          </div>
-
-          <!-- JAVASCRIPT -->
-          <div>
-            <p class="font-medium flex items-center gap-2">
-              <img src="/js.svg" class="h-10 w-10 shrink-0">
-              <span>JAVASCRIPT</span>
-              <span class="ml-auto w-12 text-right">40%</span>
-            </p>
-
-            <div class="w-full bg-gray-200 rounded-full h-2 mt-2">
-              <div class="bg-blue-600 h-2 rounded-full" style="width: 40%"></div>
-            </div>
-          </div>
 
         </div>
-      </section>
-
-      <img src="/skill.jpg" class="h-48 sm:h-60 w-full max-w-md object-cover ml-0 lg:ml-10 rounded-lg">
 
     </div>
+
+</section>
 
     <!-- WORK -->
-    <h3 class="text-center mt-15 underline text-3xl font-medium text-blue-500">
-      WORK
-    </h3>
+   
+    <!-- WORK SECTION -->
+<section id="work" class="relative overflow-hidden py-16 bg-amber-50/30">
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-10 max-w-5xl mx-auto px-4 sm:px-6">
-      <img src="/work1.avif" class="w-full h-60 object-cover rounded-lg">
-      <img src="/work3.jpg" class="w-full h-60 object-cover rounded-lg">
-      <img src="/work4.jpg" class="w-full h-60 object-cover rounded-lg">
-      <img src="/work5.jpg" class="w-full h-60 object-cover rounded-lg">
-      <img src="/work6.webp" class="w-full h-60 object-cover rounded-lg">
-      <img src="/work7.jpg" class="w-full h-60 object-cover rounded-lg">
+    <!-- Optional Soft Amber/Yellow Glowing Background Blob -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-amber-200/20 rounded-full blur-[130px] -z-10 pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        
+        <!-- Section Heading -->
+        <h3 class="text-center mb-12 underline underline-offset-8 text-3xl font-bold tracking-wide text-blue-600">
+            WORK
+        </h3>
+
+        <!-- Responsive Work Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+            
+            <!-- Work Item 1 -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-md border border-gray-200 bg-white">
+                <img src="/work1.avif" alt="Work 1" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+            </div>
+
+            <!-- Work Item 2 -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-md border border-gray-200 bg-white">
+                <img src="/work3.jpg" alt="Work 2" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+            </div>
+
+            <!-- Work Item 3 -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-md border border-gray-200 bg-white">
+                <img src="/work4.jpg" alt="Work 3" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+            </div>
+
+            <!-- Work Item 4 -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-md border border-gray-200 bg-white">
+                <img src="/work5.jpg" alt="Work 4" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+            </div>
+
+            <!-- Work Item 5 -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-md border border-gray-200 bg-white">
+                <img src="/work6.webp" alt="Work 5" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+            </div>
+
+            <!-- Work Item 6 -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-md border border-gray-200 bg-white">
+                <img src="/work7.jpg" alt="Work 6" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+            </div>
+
+        </div>
+
     </div>
 
+</section>
     <!-- CONTACT -->
-    <h3 class="text-center mt-10 underline text-3xl font-medium text-blue-500">
-      CONTACT
-    </h3>
+   <!-- CONTACT SECTION -->
+<section id="contact" class="relative overflow-hidden py-16 px-4 sm:px-8 bg-indigo-50/30">
 
-    <div class="w-full max-w-md mx-auto p-4 sm:p-6 bg-white rounded-xl shadow-lg">
+    <!-- Optional Soft Indigo/Purple Glowing Background Blob -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-indigo-200/30 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
 
-      <form class="space-y-4 mt-6">
+    <div class="max-w-7xl mx-auto">
+        
+        <!-- Section Heading -->
+        <h3 class="text-center mb-12 underline underline-offset-8 text-3xl font-bold tracking-wide text-blue-600">
+            CONTACT
+        </h3>
 
-        <div>
-          <input
-            type="text"
-            placeholder="Name"
-            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <!-- Form Card Container -->
+        <div class="w-full max-w-lg mx-auto p-6 sm:p-8 bg-white/90 backdrop-blur-md rounded-3xl shadow-xl border border-gray-200">
+
+            <form class="space-y-5 mt-2">
+
+                <!-- Name Field -->
+                <div>
+                    <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Your Name</label>
+                    <input
+                        type="text"
+                        placeholder="Enter your name"
+                        class="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:bg-white transition-all text-sm sm:text-base">
+                </div>
+
+                <!-- Email Field -->
+                <div>
+                    <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Your Email</label>
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        class="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:bg-white transition-all text-sm sm:text-base">
+                </div>
+
+                <!-- Message Field -->
+                <div>
+                    <label class="block text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">Your Message</label>
+                    <textarea
+                        rows="5"
+                        placeholder="Write your message here..."
+                        class="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:bg-white transition-all resize-none text-sm sm:text-base"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="flex justify-end pt-2">
+                    <button
+                        type="submit"
+                        class="w-full sm:w-auto px-8 py-3.5 bg-green-600 hover:bg-green-500 text-white font-medium rounded-xl shadow-lg shadow-green-600/20 transition-all text-center">
+                        SUBMIT
+                    </button>
+                </div>
+
+            </form>
+
         </div>
 
-        <div>
-          <input
-            type="email"
-            placeholder="Email"
-            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-        </div>
-
-        <div>
-          <textarea
-            rows="6"
-            placeholder="Message"
-            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"></textarea>
-        </div>
-
-        <div class="flex justify-end">
-          <button
-            type="submit"
-            class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium">
-            SUBMIT
-          </button>
-        </div>
-
-      </form>
     </div>
+
+</section>
 
     <script type="module" src="/src/main.js"></script>
   </body>
